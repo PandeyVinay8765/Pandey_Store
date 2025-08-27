@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+
+  <!-- Bag body (rectangle shape) -->
+  <path d="M25 35 H75 V80 H25 Z"
+        fill="#16a085" stroke="#0a6e5a" stroke-width="2"/>
+
+  <!-- Bag handle (solid arc) -->
+  <path d="M30 35
+           A20 20 0 0 1 70 35
+           L65 35
+           A15 15 0 0 0 35 35
+           Z"
+        fill="#16a085" stroke="#0a6e5a" stroke-width="2"/>
+
+</svg>
