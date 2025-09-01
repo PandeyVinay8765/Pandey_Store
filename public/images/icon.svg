@@ -1,15 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Blue Circle -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#0077b6" stroke-width="30"/>
 
-  <!-- Bag body (rectangle shape) -->
-  <path d="M25 35 H75 V80 H25 Z"
-        fill="#16a085" stroke="#0a6e5a" stroke-width="2"/>
+  <!-- Yellow Bag -->
+  <path d="M180 190 h152 a20 20 0 0 1 20 20 v160 a20 20 0 0 1 -20 20 h-152 a20 20 0 0 1 -20 -20 v-160 a20 20 0 0 1 20 -20 z"
+        fill="#fbbf24"/>
+  
+  <!-- Bag Handles -->
+  <path d="M200 190 q56 -90 112 0" fill="none" stroke="#f59e0b" stroke-width="20" stroke-linecap="round"/>
 
-  <!-- Bag handle (solid arc) -->
-  <path d="M30 35
-           A20 20 0 0 1 70 35
-           L65 35
-           A15 15 0 0 0 35 35
-           Z"
-        fill="#16a085" stroke="#0a6e5a" stroke-width="2"/>
-
+  <!-- Small 'ps' inside the bag -->
+  <text x="256" y="290"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+        font-size="36"
+        font-weight="700"
+        fill="#0f172a"
+        letter-spacing="1">ps</text>
 </svg>
